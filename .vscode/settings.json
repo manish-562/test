@@ -1,0 +1,39 @@
+{
+    "window.commandCenter": false,
+    "window.zoomLevel": 4,
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.colorTheme": "Dracula",
+    "workbench.iconTheme": "material-icon-theme",
+    "files.autoSave": "off",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  
+    // Git
+    "workbench.editorAssociations.git-rebase-todo": "default",
+  
+    // Python
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.autopep8"
+    },
+  
+    // C, C++
+    "[c]": {
+      "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "[cpp]": {
+      "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+  
+    // Shell Scripts
+    "[shellscript]": {
+      "editor.defaultFormatter": "mkhl.shfmt"
+    },
+  
+    // R programming
+    "[r]": {
+      "bracketedPaste": true,
+      "lsp.debug": true,
+      "lsp.path": "/usr/local/lib/R/site-library/languageserver",
+      "editor.defaultFormatter": "REditorSupport.r"
+    }
+  }
